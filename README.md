@@ -12,7 +12,7 @@ Bu depo, ESP8266 mikrodenetleyici kartı ile geliştirdiğim çeşitli projeleri
      - WiFi üzerinden HomeKit entegrasyonu.
      - iOS cihazlarda HomeKit uygulaması ile kontrol.
      - Basit kurulum ve kullanım.
-   - [Daha fazla bilgi için proje klasörüne gidin](HomeKit_LED_Control).
+   - [Daha fazla bilgi için proje klasörüne gidin](HomeKit/v1.0).
 
 ---
 
