@@ -24,13 +24,13 @@ Proje, ESP8266 kartının D1 pinine bağlı bir LED'i Apple HomeKit uygulaması 
 2. **WiFi Bilgilerini Güncelleme**:
    - `wifi_info.h` dosyasını açın ve aşağıdaki satırları kendi WiFi ağ bilgilerinizle güncelleyin:
      ```cpp
-     const char *ssid = "YOUR_WIFI_SSID";
-     const char *password = "YOUR_WIFI_PASSWORD";
+     const char *ssid = "Wifi-Name";
+     const char *password = "Password";
      ```
-   - `YOUR_WIFI_SSID` ve `YOUR_WIFI_PASSWORD` yerine kendi WiFi ağınızın adını ve şifresini girin.
+   - `Wifi-Name` ve `Password` yerine kendi WiFi ağınızın adını ve şifresini girin.
 
 3. **Kodu Yükleme**:
-   - `deneme1_jan24a.ino` dosyasını Arduino IDE'de açın ve kodu ESP8266 kartınıza yükleyin.
+   - `test.ino` dosyasını Arduino IDE'de açın ve kodu ESP8266 kartınıza yükleyin.
 
 4. **HomeKit ile Eşleştirme**:
    - iOS cihazınızda HomeKit uygulamasını açın.
@@ -42,7 +42,7 @@ Proje, ESP8266 kartının D1 pinine bağlı bir LED'i Apple HomeKit uygulaması 
 
 ## Dosyalar
 
-- **deneme1_jan24a.ino**: Ana proje dosyası. ESP8266'nın HomeKit ile iletişim kurmasını sağlar.
+- **test.ino**: Ana proje dosyası. ESP8266'nın HomeKit ile iletişim kurmasını sağlar.
 - **wifi_info.h**: WiFi ağ bilgilerinin bulunduğu dosya. Kullanıcılar bu dosyayı kendi WiFi bilgileri ile güncellemeli.
 - **my_accessory.c**: HomeKit karakteristiklerini ve ayarlarını tanımlar.
 
