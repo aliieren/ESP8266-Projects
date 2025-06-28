@@ -36,12 +36,4 @@ Eğer bu projeleri geliştirmek veya yeni projeler eklemek isterseniz, lütfen a
 
 ---
 
-## Lisans
 
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakın.
-
----
-
-## İletişim
-
-Eğer herhangi bir sorunuz veya öneriniz varsa, lütfen [GitHub Issues](https://github.com/kullanici_adiniz/ESP8266_Projects/issues) sayfasından bana ulaşın.
