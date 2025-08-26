@@ -1,11 +1,3 @@
-/*
- * my_accessory.c
- * Define the accessory in C language using the Macro in characteristics.h
- *
- *  Created on: 2020-05-15
- *      Author: Mixiaoxiao (Wang Bin)
- */
-
 #include <homekit/homekit.h>
 #include <homekit/characteristics.h>
 
@@ -13,14 +5,9 @@ void my_accessory_identify(homekit_value_t _value) {
 	printf("accessory identify\n");
 }
 
-// Switch (HAP section 8.38)
-// required: ON
-// optional: NAME
-
 // format: bool; HAP section 9.70; write the .setter function to get the switch-event sent from iOS Home APP.
 homekit_characteristic_t cha_switch_on = HOMEKIT_CHARACTERISTIC_(ON, false);
 
-// format: string; HAP section 9.62; max length 64
 homekit_characteristic_t cha_name = HOMEKIT_CHARACTERISTIC_(NAME, "Switch");
 
 homekit_accessory_t *accessories[] = {
@@ -47,4 +34,5 @@ homekit_accessory_t *accessories[] = {
 homekit_server_config_t config = {
 		.accessories = accessories,
 		.password = "111-11-111"
+
 };
