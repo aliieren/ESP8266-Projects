@@ -10,8 +10,6 @@
 
 #if defined(ESP8266)
 #include <ESP8266WiFi.h>
-#elif defined(ESP32)
-#include <WiFi.h>
 #endif
 
 const char *ssid = "Wifi-Name";
@@ -32,3 +30,4 @@ void wifi_connect() {
 }
 
 #endif /* WIFI_INFO_H_ */
+
