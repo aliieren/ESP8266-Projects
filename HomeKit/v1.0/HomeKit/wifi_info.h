@@ -1,10 +1,3 @@
-/*
- * wifi_info.h
- *
- *  Created on: 2020-05-15
- *      Author: Mixiaoxiao (Wang Bin)
- */
-
 #ifndef WIFI_INFO_H_
 #define WIFI_INFO_H_
 
@@ -30,4 +23,5 @@ void wifi_connect() {
 }
 
 #endif /* WIFI_INFO_H_ */
+
 
