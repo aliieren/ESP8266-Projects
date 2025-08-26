@@ -22,18 +22,4 @@ Bu depo, ESP8266 mikrodenetleyici kartı ile geliştirdiğim çeşitli projeleri
 - **Arduino IDE**: Projelerin geliştirildiği ortam.
 - **Apple HomeKit**: IoT cihazlarını kontrol etmek için kullanılan platform.
 
----
-
-## Katkıda Bulunma
-
-Eğer bu projeleri geliştirmek veya yeni projeler eklemek isterseniz, lütfen aşağıdaki adımları takip edin:
-
-1. Repoyu forklayın.
-2. Yeni bir branch oluşturun (`git checkout -b yeni-ozellik`).
-3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik eklendi'`).
-4. Branch'inizi pushlayın (`git push origin yeni-ozellik`).
-5. Bir Pull Request oluşturun.
-
----
-
 
