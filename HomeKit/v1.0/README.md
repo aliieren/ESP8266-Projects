@@ -51,19 +51,6 @@ Proje, ESP8266 kartının D1 pinine bağlı bir LED'i Apple HomeKit uygulaması 
 - **WiFi Bilgileri**: Kullanıcıların kendi WiFi ağ bilgilerini `wifi_info.h` dosyasına girmesi gerekmektedir. Aksi takdirde ESP8266 kartı internete bağlanamaz.
 - **HomeKit Şifresi**: HomeKit eşleştirme şifresi `111-11-111` olarak ayarlanmıştır. Bu şifreyi değiştirmek isterseniz `my_accessory.c` dosyasındaki `config` yapısını güncelleyebilirsiniz.
 
-## Katkıda Bulunma
-
-Eğer bu projeyi geliştirmek veya yeni özellikler eklemek isterseniz, lütfen aşağıdaki adımları takip edin:
-
-1. Repoyu forklayın.
-2. Yeni bir branch oluşturun (`git checkout -b yeni-ozellik`).
-3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik eklendi'`).
-4. Branch'inizi pushlayın (`git push origin yeni-ozellik`).
-5. Bir Pull Request oluşturun.
-
-## Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakın.
 
 ---
 
